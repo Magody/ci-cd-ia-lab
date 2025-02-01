@@ -2,7 +2,7 @@ import requests
 import numpy as np
 
 # URL de la API desplegada en Google Cloud Run (reemplázala con tu URL real)
-CLOUD_RUN_URL = "https://ci-cd-ia-xxxxx-uc.a.run.app/predict"
+CLOUD_RUN_URL = "https://ci-cd-ia-410479778764.us-central1.run.app/predict"
 
 # Generar un número aleatorio simulando un dígito del dataset MNIST (28x28)
 dummy_data = np.random.rand(28, 28).tolist()
